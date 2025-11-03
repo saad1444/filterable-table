@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Filterable data Table</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h2>Filterable Data Table</h2>
+
+  <div class="filters">
+    <input type="text" id="searchInput" placeholder="Search by name...">
+    <select id="categoryFilter">
+      <option value="">All Categories</option>
+      <option value="Electronics">Electronics</option>
+      <option value="Clothing">Clothing</option>
+      <option value="Grocery">Grocery</option>
+      <option value="Toys">Toys</option>
+    <option value="Books">Books</option>
+    <option value="Furniture">Furniture</option>
+      
+    </select>
+  </div>
+
+  <table id="dataTable">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Category</th>
+        <th>Price ($)</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+  
+  <script src="app.js"></script>
+</body>
+</html>

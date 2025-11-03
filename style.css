@@ -1,0 +1,49 @@
+body { 
+    font-family: 'Poppins', sans-serif; margin: 40px; 
+    background: #121212;color: #e0e0e0;
+ }
+
+h2 {
+    text-align: center;color: #d9dbdd;              
+    margin-bottom: 25px;
+}
+
+.filters{
+    display: flex; justify-content: center;
+    gap: 12px;  margin-bottom: 20px;
+}
+
+input, select {
+  padding: 8px 10px; border-radius: 6px;
+  border: 1px solid #333; background: #1e1e1e;
+  color: #fff;
+}
+
+input:focus, select:focus {
+  outline: none; border-color: #90caf9;
+}
+
+table {
+  width: 85%; margin: auto; border-collapse: collapse;
+  background: #1e1e1e; border: 1px solid #333;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.6);
+}
+
+th {
+  background: #021e39; color: white;
+  padding: 12px;  text-align: left;
+}
+
+td {
+  padding: 10px 12px;  border-bottom: 1px solid #333;
+}
+
+#dataTable tbody tr:hover {
+  background-color: #263238; transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+footer {
+  text-align: center; color: #888;
+  margin-top: 30px;font-size: 14px;
+}
